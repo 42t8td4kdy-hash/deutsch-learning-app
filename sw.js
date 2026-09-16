@@ -1,4 +1,4 @@
-const CACHE="deutsch-v3.2.0";
+const CACHE="deutsch-v3.3";
 const ASSETS=[
   "./",
   "./index.html",
