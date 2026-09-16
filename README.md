@@ -1,25 +1,20 @@
-# Deutsch — CEFR Course & Tutor v2
+# Deutsch — CEFR Course & Tutor v3
 
-A mobile-first, long-term German learning PWA.
+A mobile-first, long-term German learning PWA built around a structured CEFR pathway.
 
-## Version 2.1
-- redesigned premium coursebook-style interface
-- responsive mobile/desktop study dashboard
-- CEFR A1→C2 architecture
-- A1.1 ten-unit roadmap
-- orientation placement assessment
-- richer interactive Unit 1
-- local progress and error tracking
-- offline-capable service worker
-- course data separated from presentation code
+## Version 3
+
+- professional visual refresh with German-inspired illustration and colour
+- corrected true single-column mobile layout
+- Unit 1 rebuilt as a six-step sequential lesson
+- Back / Continue navigation with saved lesson position
+- unit completion only appears at the end of the lesson
+- interactive answer feedback and persistent practice record
+- German text-to-speech for dialogue, vocabulary and speaking models
+- improved placement, progress and completion screens
+- existing v2 learner progress migrates automatically
+- offline-capable service worker with a new v3 cache
 
 The course content is original and organised around CEFR-style communicative outcomes. It is not an official Goethe-Institut product or CEFR examination.
 
 GitHub Pages: publish `main` from `/ (root)`.
-
-
-## Version 2.1 mobile fix
-- single-column study desk below 850px
-- full-width mobile cards and content
-- horizontal overflow protection
-- improved phone-safe bottom navigation
