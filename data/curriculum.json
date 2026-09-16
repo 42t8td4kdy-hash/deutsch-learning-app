@@ -12,52 +12,62 @@
             {
               "id": "u1",
               "title": "Greetings & introductions",
-              "canDo": "Greet someone and exchange names."
+              "canDo": "Greet someone and exchange names.",
+              "status": "available"
             },
             {
               "id": "u2",
               "title": "Origin & residence",
-              "canDo": "Say where you come from and live."
+              "canDo": "Say where you come from and live.",
+              "status": "planned"
             },
             {
               "id": "u3",
               "title": "Numbers & personal details",
-              "canDo": "Give basic personal information."
+              "canDo": "Give basic personal information.",
+              "status": "planned"
             },
             {
               "id": "u4",
               "title": "Languages & abilities",
-              "canDo": "Say which languages you speak."
+              "canDo": "Say which languages you speak.",
+              "status": "planned"
             },
             {
               "id": "u5",
               "title": "Family & people",
-              "canDo": "Describe close family simply."
+              "canDo": "Describe close family simply.",
+              "status": "planned"
             },
             {
               "id": "u6",
               "title": "Food & drink",
-              "canDo": "Order simple food and drinks."
+              "canDo": "Order simple food and drinks.",
+              "status": "planned"
             },
             {
               "id": "u7",
               "title": "Daily routine",
-              "canDo": "Describe a simple day."
+              "canDo": "Describe a simple day.",
+              "status": "planned"
             },
             {
               "id": "u8",
               "title": "Time & appointments",
-              "canDo": "Tell the time and arrange a meeting."
+              "canDo": "Tell the time and arrange a meeting.",
+              "status": "planned"
             },
             {
               "id": "u9",
               "title": "Shopping & prices",
-              "canDo": "Ask prices and buy simple items."
+              "canDo": "Ask prices and buy simple items.",
+              "status": "planned"
             },
             {
               "id": "u10",
               "title": "A1.1 checkpoint",
-              "canDo": "Combine language from Units 1–9."
+              "canDo": "Combine language from Units 1–9.",
+              "status": "planned"
             }
           ]
         }

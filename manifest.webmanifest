@@ -1,11 +1,12 @@
 {
   "name": "Deutsch \u2014 CEFR Course & Tutor",
   "short_name": "Deutsch",
+  "description": "A structured CEFR-aligned German learning course.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f3f1ec",
-  "theme_color": "#164f68",
+  "background_color": "#fbfaf7",
+  "theme_color": "#0d5d75",
   "icons": [
     {
       "src": "icons/icon.svg",
