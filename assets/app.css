@@ -16,3 +16,21 @@ h1{font:700 clamp(42px,6vw,68px)/.98 Georgia,serif;letter-spacing:-.035em;margin
 .assess{max-width:780px;margin:auto}.qnum{font-size:11px;color:var(--muted);font-weight:800}.result{padding:28px;text-align:center;background:linear-gradient(145deg,#eaf4f6,#fff)}
 @media(max-width:850px){.hero,.lesson-grid{grid-template-columns:1fr}.dashboard{grid-template-columns:1fr 1fr}.dashboard .lesson-card{grid-column:1/-1}.sticky{position:static}.path{grid-template-columns:1fr}}
 @media(max-width:600px){body{background:var(--paper)}.app{box-shadow:none}.topbar{height:66px;padding:0 18px}.mark{width:34px;height:34px}.brand b{font-size:21px}.topmeta{display:none}main{padding:28px 16px 104px}.hero{gap:16px}h1{font-size:45px}.lead{font-size:18px}.hero-card{min-height:220px;padding:21px}.hero-card h2{font-size:32px}.dashboard{grid-template-columns:1fr}.dashboard .lesson-card{grid-column:auto}.section{margin-top:34px}.section-head{align-items:start;flex-direction:column;gap:5px}.path{grid-template-columns:1fr}.card{padding:18px}.lesson-head{padding:24px 20px;border-radius:20px}.lesson-head h1{font-size:39px}.content-card{padding:19px}.bottom nav{margin-bottom:max(8px,env(safe-area-inset-bottom));border-radius:17px}}
+
+/* v2.1 mobile layout correction: use one continuous column on phones/tablets */
+@media (max-width:850px){
+  .dashboard{grid-template-columns:minmax(0,1fr)}
+  .dashboard .lesson-card{grid-column:1}
+  .dashboard>.card{width:100%;min-width:0}
+  .hero>*{min-width:0}
+  .levels{max-width:100%;-webkit-overflow-scrolling:touch}
+}
+@media (max-width:600px){
+  html,body,.app{width:100%;max-width:100%;overflow-x:hidden}
+  main{width:100%;max-width:100%}
+  .hero,.dashboard,.path,.lesson-grid{width:100%;min-width:0}
+  .hero-card,.card,.content-card,.lesson-head{width:100%;max-width:100%;min-width:0}
+  h1{font-size:clamp(38px,11vw,45px);overflow-wrap:anywhere}
+  .hero-card{min-height:0}
+  .bottom nav{width:calc(100% - 20px)}
+}
