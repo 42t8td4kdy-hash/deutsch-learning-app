@@ -4,7 +4,19 @@ let old=JSON.parse(localStorage.getItem(OLD)||"null"),p=Object.assign({},base,ol
 const save=()=>localStorage.setItem(KEY,JSON.stringify(p));
 function nav(id){document.querySelectorAll(".bottom button").forEach(b=>b.classList.remove("on"));document.querySelector("#"+id)?.classList.add("on")}
 function top(){window.scrollTo({top:0,behavior:"smooth"})}
-async function boot(){[C,L]=await Promise.all([fetch("data/curriculum.json").then(r=>r.json()),fetch("data/unit-1.json").then(r=>r.json())]);home()}
+function boot(){
+  try{
+    if(!window.DEUTSCH_DATA || !window.DEUTSCH_DATA.curriculum || !window.DEUTSCH_DATA.unit1){
+      throw new Error("Course data did not load.");
+    }
+    C=window.DEUTSCH_DATA.curriculum;
+    L=window.DEUTSCH_DATA.unit1;
+    home();
+  }catch(err){
+    console.error("Deutsch app startup error:",err);
+    main.innerHTML=`<section class="section"><div class="content-card"><div class="eyebrow">Startup problem</div><h2>The course could not start.</h2><p>Please refresh the page. If the problem continues, the course files may not all have been uploaded together.</p><p class="meta">${String(err.message||err)}</p></div></section>`;
+  }
+}
 const gateSVG=`<svg viewBox="0 0 600 330" aria-hidden="true"><path fill="#c6e2e5" d="M0 230 Q110 180 210 230 T430 220 T600 235 V330 H0Z"/><path fill="#8db7ad" d="M0 270 Q120 235 230 270 T470 258 T600 270 V330 H0Z"/><g fill="#315b5d"><rect x="210" y="155" width="180" height="18" rx="3"/><rect x="225" y="174" width="150" height="14"/><rect x="235" y="188" width="16" height="92"/><rect x="272" y="188" width="16" height="92"/><rect x="312" y="188" width="16" height="92"/><rect x="349" y="188" width="16" height="92"/><rect x="218" y="280" width="164" height="12"/><path d="M195 155 L300 115 L405 155Z"/><rect x="294" y="94" width="12" height="25"/><circle cx="300" cy="88" r="8"/></g></svg>`;
 function home(){nav("nh");top();let done=p.completed.includes("u1"),step=Math.min(p.lessonStep||0,5);main.innerHTML=`<section class=hero><div class=hero-copy><div class=eyebrow>Your German course</div><div class=flagline></div><h1>German, taught with structure.</h1><p class=lead>A complete CEFR-aligned programme for real communication — clear explanations, active recall and deliberate practice.</p><div class=levels>${C.levels.map((l,i)=>`<span class="pill ${i?'':'on'}">${l.id} · ${l.title}</span>`).join("")}</div></div><aside class=hero-visual><div class=sun></div><div class=visual-label><strong>Deutschland entdecken</strong><span>Language, places and everyday life.</span></div>${gateSVG}</aside></section>
 <section class=orientation><div><div class=eyebrow>Current orientation</div><h2>${p.placement}</h2><p>${p.placement==="Not assessed"?"Take a short placement assessment to find the right starting point.":"Your course is now oriented from this starting point."}</p></div><div class=orientation-actions><div class=ring><span>${done?"10%":Math.round(step/6*10)+"%"}</span></div><button class="btn gold" onclick=placement()>${p.placement==="Not assessed"?"Assess me":"Reassess"}</button></div></section>

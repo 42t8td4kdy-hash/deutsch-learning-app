@@ -1,4 +1,4 @@
-# Deutsch — CEFR Course & Tutor v3
+# Deutsch — CEFR Course & Tutor v3.1
 
 A mobile-first, long-term German learning PWA built around a structured CEFR pathway.
 
@@ -18,3 +18,13 @@ A mobile-first, long-term German learning PWA built around a structured CEFR pat
 The course content is original and organised around CEFR-style communicative outcomes. It is not an official Goethe-Institut product or CEFR examination.
 
 GitHub Pages: publish `main` from `/ (root)`.
+
+
+## Version 3.1 reliability fix
+
+- fixes the app hanging on “Loading your course…”
+- loads course data directly from a versioned JavaScript data module
+- keeps JSON course files for future curriculum editing
+- adds a visible startup error instead of an indefinite loading screen
+- updates the PWA cache to `deutsch-v3.1.0`
+- preserves the V3 visual design and six-step Unit 1 navigation
