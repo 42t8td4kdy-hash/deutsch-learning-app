@@ -1,0 +1,17 @@
+{
+  "name": "Deutsch \u2014 CEFR Course & Tutor",
+  "short_name": "Deutsch",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f1ec",
+  "theme_color": "#164f68",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

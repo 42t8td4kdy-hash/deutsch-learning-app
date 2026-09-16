@@ -1,0 +1,64 @@
+{
+  "title": "Begrüßungen und Vorstellungen",
+  "subtitle": "Greetings & introductions",
+  "canDo": [
+    "I can greet someone.",
+    "I can ask someone's name.",
+    "I can say my name.",
+    "I can respond when introduced."
+  ],
+  "dialogue": [
+    [
+      "Anna",
+      "Hallo!"
+    ],
+    [
+      "Ben",
+      "Hallo! Wie heißt du?"
+    ],
+    [
+      "Anna",
+      "Ich heiße Anna. Und du?"
+    ],
+    [
+      "Ben",
+      "Ich heiße Ben. Freut mich!"
+    ],
+    [
+      "Anna",
+      "Freut mich auch!"
+    ]
+  ],
+  "vocabulary": [
+    [
+      "Hallo",
+      "hello"
+    ],
+    [
+      "Wie heißt du?",
+      "What's your name?"
+    ],
+    [
+      "Ich heiße …",
+      "My name is …"
+    ],
+    [
+      "und",
+      "and"
+    ],
+    [
+      "du",
+      "you (informal singular)"
+    ],
+    [
+      "Freut mich.",
+      "Nice to meet you."
+    ],
+    [
+      "auch",
+      "also / too"
+    ]
+  ],
+  "grammar": "German uses heißen when asking or saying what someone is called. Learn “Wie heißt du?” and “Ich heiße …” as complete useful patterns. Notice: ich heiße, du heißt.",
+  "pronunciation": "In heißt, ei sounds approximately like the vowel in English “my”. The ß represents an s-like sound."
+}

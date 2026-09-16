@@ -1,0 +1,87 @@
+{
+  "framework": "CEFR-aligned original course",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Beginner",
+      "modules": [
+        {
+          "id": "A1.1",
+          "title": "First interactions",
+          "units": [
+            {
+              "id": "u1",
+              "title": "Greetings & introductions",
+              "canDo": "Greet someone and exchange names."
+            },
+            {
+              "id": "u2",
+              "title": "Origin & residence",
+              "canDo": "Say where you come from and live."
+            },
+            {
+              "id": "u3",
+              "title": "Numbers & personal details",
+              "canDo": "Give basic personal information."
+            },
+            {
+              "id": "u4",
+              "title": "Languages & abilities",
+              "canDo": "Say which languages you speak."
+            },
+            {
+              "id": "u5",
+              "title": "Family & people",
+              "canDo": "Describe close family simply."
+            },
+            {
+              "id": "u6",
+              "title": "Food & drink",
+              "canDo": "Order simple food and drinks."
+            },
+            {
+              "id": "u7",
+              "title": "Daily routine",
+              "canDo": "Describe a simple day."
+            },
+            {
+              "id": "u8",
+              "title": "Time & appointments",
+              "canDo": "Tell the time and arrange a meeting."
+            },
+            {
+              "id": "u9",
+              "title": "Shopping & prices",
+              "canDo": "Ask prices and buy simple items."
+            },
+            {
+              "id": "u10",
+              "title": "A1.1 checkpoint",
+              "canDo": "Combine language from Units 1–9."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "Elementary"
+    },
+    {
+      "id": "B1",
+      "title": "Independent"
+    },
+    {
+      "id": "B2",
+      "title": "Upper intermediate"
+    },
+    {
+      "id": "C1",
+      "title": "Advanced"
+    },
+    {
+      "id": "C2",
+      "title": "Proficient"
+    }
+  ]
+}
