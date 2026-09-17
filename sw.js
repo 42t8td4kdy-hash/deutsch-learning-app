@@ -1,4 +1,4 @@
-const CACHE="deutsch-v3.4";
+const CACHE="deutsch-v3.5";
 const ASSETS=[
   "./",
   "./index.html",
@@ -24,7 +24,7 @@ self.addEventListener("install",event=>{
 self.addEventListener("activate",event=>{
   event.waitUntil(
     caches.keys()
-      .then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))
+      .then(keys=>Promise.all(keys.filter(key=>key.startsWith("deutsch-") && key!==CACHE).map(key=>caches.delete(key))))
       .then(()=>self.clients.claim())
   );
 });

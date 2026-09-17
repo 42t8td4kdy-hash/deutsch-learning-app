@@ -1,4 +1,4 @@
-# Deutsch — CEFR Course & Tutor v3.4
+# Deutsch — CEFR Course & Tutor v3.5
 
 A mobile-first, long-term German learning PWA built around a structured CEFR pathway.
 
@@ -45,3 +45,14 @@ GitHub Pages: publish `main` from `/ (root)`.
 - consistent photographic CEFR pathway thumbnails
 - photographic dialogue, placement and completion artwork
 - preserves the working six-step Unit 1.1 lesson flow and saved progress
+
+## Version 3.5
+- Replaces screenshot/collage crops with four standalone AI-generated realistic German scenes, optimized as 1536 × 1024 JPEGs.
+- Consistent scene framing, compact cards and headings, polished navigation, and a photographic progress header.
+- Retains the six-step Unit 1 flow, course data, speech, scoring, and existing deutsch-v3 / deutsch-v2 progress keys.
+- Cache version deutsch-v3.5; cache cleanup is limited to Deutsch caches.
+- Built from repository V3.4 commit f06a14d7a55ec04835f0cdb7dbec6ae4ae26f2a2 because the referenced /mnt/data ZIP was not available locally.
+- Existing navigation has Home, Course, Placement and Progress; no separate menu route was present.
+
+### Asset provenance
+Generated using the built-in image generation tool. Prompts requested separate natural travel/editorial photographs of Cologne Cathedral and the Rhine, Brandenburg Gate, two coffee cups at a German old-town cafe, and Neuschwanstein Castle; warm natural light, realistic texture, landscape 3:2 framing, no text, UI, collage or watermark. Placement uses the Cologne scene. These are AI-generated representations, not documentary photographs.
