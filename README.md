@@ -1,4 +1,4 @@
-# Deutsch — CEFR Course & Tutor v3.3
+# Deutsch — CEFR Course & Tutor v3.4
 
 A mobile-first, long-term German learning PWA built around a structured CEFR pathway.
 
@@ -26,7 +26,7 @@ GitHub Pages: publish `main` from `/ (root)`.
 - loads course data directly from a versioned JavaScript data module
 - keeps JSON course files for future curriculum editing
 - adds a visible startup error instead of an indefinite loading screen
-- updates the PWA cache to `deutsch-v3.3.0`
+- updates the PWA cache to `deutsch-v3.4.0`
 - preserves the V3 visual design and six-step Unit 1 navigation
 
 
@@ -34,5 +34,14 @@ GitHub Pages: publish `main` from `/ (root)`.
 
 - fixes the JavaScript startup syntax error caused by the browser global `top`
 - renames the internal scroll helper to `scrollPageTop()`
-- updates the PWA cache to `deutsch-v3.3.0` so browsers fetch the corrected files
+- updates the PWA cache to `deutsch-v3.4.0` so browsers fetch the corrected files
 - preserves the V3 visual design, progress data and six-step Unit 1 lesson flow
+
+
+## Version 3.4
+- realistic German landmark photography throughout the mobile interface
+- reduced mobile hero height and tighter typography
+- safer bottom-navigation spacing on iPhone
+- consistent photographic CEFR pathway thumbnails
+- photographic dialogue, placement and completion artwork
+- preserves the working six-step Unit 1.1 lesson flow and saved progress

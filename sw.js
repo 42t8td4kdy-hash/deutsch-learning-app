@@ -1,4 +1,4 @@
-const CACHE="deutsch-v3.3";
+const CACHE="deutsch-v3.4";
 const ASSETS=[
   "./",
   "./index.html",
@@ -8,7 +8,12 @@ const ASSETS=[
   "./data/curriculum.json",
   "./data/unit-1.json",
   "./manifest.webmanifest",
-  "./icons/icon.svg"
+  "./icons/icon.svg",
+  "./assets/images/cologne.jpg",
+  "./assets/images/brandenburg.jpg",
+  "./assets/images/placement-cologne.jpg",
+  "./assets/images/coffee.jpg",
+  "./assets/images/neuschwanstein.jpg"
 ];
 
 self.addEventListener("install",event=>{
