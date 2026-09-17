@@ -1,73 +1,288 @@
 {
-  "framework": "CEFR-aligned original course",
+  "framework": "Original German course mapped to CEFR A1 communicative outcomes",
+  "version": "3.6",
+  "sources": [
+    {
+      "title": "Council of Europe CEFR descriptors",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors-search"
+    },
+    {
+      "title": "Council of Europe level descriptions",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions"
+    },
+    {
+      "title": "Goethe A1 practice materials: four skills",
+      "url": "https://www.goethe.de/ins/de/en/prf/prf/gzsd1/ueb.html"
+    }
+  ],
   "levels": [
     {
       "id": "A1",
       "title": "Beginner",
+      "status": "available",
       "modules": [
         {
           "id": "A1.1",
           "title": "First interactions",
+          "outcome": "Introduce yourself and exchange basic personal details with a patient speaker.",
+          "scales": [
+            "Conversation",
+            "Information exchange",
+            "Notes, messages and forms"
+          ],
           "units": [
             {
               "id": "u1",
               "title": "Greetings & introductions",
-              "canDo": "Greet someone and exchange names.",
-              "status": "available"
+              "label": "1.1",
+              "canDo": "Choose a greeting and say goodbye.",
+              "status": "available",
+              "checkpoint": false
             },
             {
               "id": "u2",
-              "title": "Origin & residence",
-              "canDo": "Say where you come from and live.",
-              "status": "planned"
+              "title": "Origin, residence & languages",
+              "label": "1.2",
+              "canDo": "Say where you come from and where you live.",
+              "status": "available",
+              "checkpoint": false
             },
             {
               "id": "u3",
-              "title": "Numbers & personal details",
-              "canDo": "Give basic personal information.",
-              "status": "planned"
-            },
-            {
-              "id": "u4",
-              "title": "Languages & abilities",
-              "canDo": "Say which languages you speak.",
-              "status": "planned"
-            },
-            {
-              "id": "u5",
-              "title": "Family & people",
-              "canDo": "Describe close family simply.",
-              "status": "planned"
-            },
-            {
-              "id": "u6",
-              "title": "Food & drink",
-              "canDo": "Order simple food and drinks.",
-              "status": "planned"
-            },
-            {
-              "id": "u7",
-              "title": "Daily routine",
-              "canDo": "Describe a simple day.",
-              "status": "planned"
-            },
-            {
-              "id": "u8",
-              "title": "Time & appointments",
-              "canDo": "Tell the time and arrange a meeting.",
-              "status": "planned"
-            },
-            {
-              "id": "u9",
-              "title": "Shopping & prices",
-              "canDo": "Ask prices and buy simple items.",
-              "status": "planned"
+              "title": "Numbers, spelling & personal details",
+              "label": "1.3",
+              "canDo": "Understand and give numbers from 0 to 100 in familiar contexts.",
+              "status": "available",
+              "checkpoint": false
             },
             {
               "id": "u10",
-              "title": "A1.1 checkpoint",
-              "canDo": "Combine language from Units 1–9.",
-              "status": "planned"
+              "title": "Module 1 checkpoint: meet a course partner",
+              "label": "1.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
+            }
+          ]
+        },
+        {
+          "id": "A1.2",
+          "title": "People, home & work",
+          "outcome": "Give simple information about people, a home and familiar work or study.",
+          "scales": [
+            "Sustained monologue: describing experience",
+            "Reading for orientation",
+            "Information exchange"
+          ],
+          "units": [
+            {
+              "id": "u5",
+              "title": "Family & people",
+              "label": "2.1",
+              "canDo": "Introduce close family members.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u11",
+              "title": "Home & possessions",
+              "label": "2.2",
+              "canDo": "Describe a home and name its main rooms.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u12",
+              "title": "Work, study & everyday places",
+              "label": "2.3",
+              "canDo": "Say what you do and where you work or study.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u13",
+              "title": "Module 2 checkpoint: a new neighbour",
+              "label": "2.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
+            }
+          ]
+        },
+        {
+          "id": "A1.3",
+          "title": "Daily life & plans",
+          "outcome": "Describe familiar activities and arrange a simple meeting using times and days.",
+          "scales": [
+            "Information exchange",
+            "Overall spoken interaction",
+            "Correspondence"
+          ],
+          "units": [
+            {
+              "id": "u7",
+              "title": "Daily routine",
+              "label": "3.1",
+              "canDo": "Describe a simple sequence of daily activities.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u8",
+              "title": "Time, dates & appointments",
+              "label": "3.2",
+              "canDo": "Understand simple times, weekdays and dates.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u4",
+              "title": "Leisure, weather & simple plans",
+              "label": "3.3",
+              "canDo": "Say what you like doing and what you can do.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u14",
+              "title": "Module 3 checkpoint: arrange a weekend",
+              "label": "3.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
+            }
+          ]
+        },
+        {
+          "id": "A1.4",
+          "title": "Food, shopping & transactions",
+          "outcome": "Request familiar goods, understand quantities and prices, and complete a simple purchase.",
+          "scales": [
+            "Obtaining goods and services",
+            "Reading for orientation",
+            "Understanding an interlocutor"
+          ],
+          "units": [
+            {
+              "id": "u6",
+              "title": "Food, drink & a café order",
+              "label": "4.1",
+              "canDo": "Order a simple drink or snack politely.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u9",
+              "title": "Groceries, quantities & prices",
+              "label": "4.2",
+              "canDo": "Buy everyday food using simple quantities.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u15",
+              "title": "Clothes, preferences & requests",
+              "label": "4.3",
+              "canDo": "Ask for a simple item in a shop.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u16",
+              "title": "Module 4 checkpoint: shopping day",
+              "label": "4.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
+            }
+          ]
+        },
+        {
+          "id": "A1.5",
+          "title": "Travel, places & services",
+          "outcome": "Find a place, use basic transport information and ask for a simple service.",
+          "scales": [
+            "Understanding an interlocutor",
+            "Reading for orientation",
+            "Obtaining goods and services"
+          ],
+          "units": [
+            {
+              "id": "u17",
+              "title": "Around town & simple directions",
+              "label": "5.1",
+              "canDo": "Ask where a familiar place is.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u18",
+              "title": "Transport & travel information",
+              "label": "5.2",
+              "canDo": "Buy a simple train or bus ticket.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u19",
+              "title": "Accommodation & simple service problems",
+              "label": "5.3",
+              "canDo": "Check into a hotel using simple details.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u20",
+              "title": "Module 5 checkpoint: arrive in a new city",
+              "label": "5.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
+            }
+          ]
+        },
+        {
+          "id": "A1.6",
+          "title": "Needs, messages & consolidation",
+          "outcome": "Express a basic need, exchange short messages and combine familiar language across A1 situations.",
+          "scales": [
+            "Correspondence",
+            "Notes, messages and forms",
+            "Information exchange",
+            "Mediating a text"
+          ],
+          "units": [
+            {
+              "id": "u21",
+              "title": "Health, needs & asking for help",
+              "label": "6.1",
+              "canDo": "Say how you feel and name a simple symptom.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u22",
+              "title": "Short messages, invitations & forms",
+              "label": "6.2",
+              "canDo": "Understand a brief everyday message.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u23",
+              "title": "A short account & A1 consolidation",
+              "label": "6.3",
+              "canDo": "Give a very short account of a familiar experience using learned phrases.",
+              "status": "available",
+              "checkpoint": false
+            },
+            {
+              "id": "u24",
+              "title": "A1 final checkpoint: everyday communication",
+              "label": "6.4",
+              "canDo": "Understand key details in short text and slow speech.",
+              "status": "available",
+              "checkpoint": true
             }
           ]
         }
@@ -75,23 +290,28 @@
     },
     {
       "id": "A2",
-      "title": "Elementary"
+      "title": "Elementary",
+      "status": "planned"
     },
     {
       "id": "B1",
-      "title": "Independent"
+      "title": "Independent",
+      "status": "planned"
     },
     {
       "id": "B2",
-      "title": "Upper intermediate"
+      "title": "Upper intermediate",
+      "status": "planned"
     },
     {
       "id": "C1",
-      "title": "Advanced"
+      "title": "Advanced",
+      "status": "planned"
     },
     {
       "id": "C2",
-      "title": "Proficient"
+      "title": "Proficient",
+      "status": "planned"
     }
   ]
 }

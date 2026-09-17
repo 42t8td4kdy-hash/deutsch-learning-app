@@ -1,4 +1,4 @@
-const CACHE="deutsch-v3.5";
+const CACHE="deutsch-v3.6";
 const ASSETS=[
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const ASSETS=[
   "./data/course-data.js",
   "./data/curriculum.json",
   "./data/unit-1.json",
+  "./data/a1-units.json",
   "./manifest.webmanifest",
   "./icons/icon.svg",
   "./assets/images/cologne.jpg",

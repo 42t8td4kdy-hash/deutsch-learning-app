@@ -1,33 +1,47 @@
 {
-  "title": "Begrüßungen und Vorstellungen",
-  "subtitle": "Greetings & introductions",
-  "estimated": "20–25 min",
+  "id": "u1",
+  "title": "Greetings & introductions",
+  "estimated": "30–40 min + review",
   "canDo": [
-    "Greet someone appropriately.",
-    "Ask someone's name.",
-    "Say your own name.",
-    "Respond naturally when introduced."
+    "Choose a greeting and say goodbye.",
+    "Ask and give a name using du or Sie.",
+    "Ask someone to repeat a simple phrase."
   ],
   "dialogue": [
     [
       "Anna",
-      "Hallo!"
+      "Guten Morgen! Ich heiße Anna. Wie heißt du?",
+      "Good morning! My name is Anna. What is your name?"
     ],
     [
       "Ben",
-      "Hallo! Wie heißt du?"
+      "Ich heiße Ben. Freut mich!",
+      "My name is Ben. Nice to meet you!"
     ],
     [
       "Anna",
-      "Ich heiße Anna. Und du?"
+      "Freut mich auch.",
+      "Nice to meet you too."
+    ],
+    [
+      "Lehrerin",
+      "Guten Tag. Wie heißen Sie?",
+      "Hello. What is your name? (formal)"
     ],
     [
       "Ben",
-      "Ich heiße Ben. Freut mich!"
+      "Entschuldigung, bitte noch einmal.",
+      "Sorry, once again please."
     ],
     [
-      "Anna",
-      "Freut mich auch!"
+      "Lehrerin",
+      "Wie heißen Sie?",
+      "What is your name?"
+    ],
+    [
+      "Ben",
+      "Ich heiße Ben. Auf Wiedersehen!",
+      "My name is Ben. Goodbye!"
     ]
   ],
   "vocabulary": [
@@ -40,26 +54,171 @@
       "good morning"
     ],
     [
+      "Guten Tag",
+      "hello / good day"
+    ],
+    [
+      "Guten Abend",
+      "good evening"
+    ],
+    [
+      "Tschüss",
+      "bye (informal)"
+    ],
+    [
+      "Auf Wiedersehen",
+      "goodbye"
+    ],
+    [
       "Wie heißt du?",
-      "What's your name?"
+      "What is your name? (informal)"
+    ],
+    [
+      "Wie heißen Sie?",
+      "What is your name? (formal)"
     ],
     [
       "Ich heiße …",
       "My name is …"
     ],
     [
-      "Und du?",
-      "And you?"
+      "Freut mich",
+      "Nice to meet you"
     ],
     [
-      "Freut mich.",
-      "Nice to meet you."
+      "Entschuldigung",
+      "excuse me / sorry"
     ],
     [
-      "auch",
-      "also / too"
+      "Bitte noch einmal",
+      "Once again, please"
+    ],
+    [
+      "Langsam, bitte",
+      "Slowly, please"
     ]
   ],
-  "grammar": "German uses heißen when asking or saying what someone is called. At this stage, learn “Wie heißt du?” and “Ich heiße …” as complete, useful patterns. Notice the forms: ich heiße, du heißt.",
-  "pronunciation": "In heißt, the letters ei sound approximately like the vowel in English “my”. The letter ß represents an s-like sound."
+  "grammar": [
+    "Learn a greeting, a question and an answer as a short exchange. The verb changes with the person: ich heiße, du heißt, Sie heißen. A statement normally places the verb second: Ich heiße Anna. A question with Wie places the verb after the question word: Wie heißt du?",
+    "Use du with friends and people who invite you to use it. Use Sie in a polite first meeting with an adult you do not know. Formal Sie is always capitalised. Guten Tag and Auf Wiedersehen suit either context; Tschüss is more informal."
+  ],
+  "examples": [
+    [
+      "Ich heiße Anna.",
+      "My name is Anna."
+    ],
+    [
+      "Wie heißt du?",
+      "What is your name? (informal)"
+    ],
+    [
+      "Wie heißen Sie?",
+      "What is your name? (formal)"
+    ]
+  ],
+  "pronunciation": "The letters ei in heißen sound like the vowel in English “my”. The ß is an s sound. Listen to the model and repeat the whole question with a gentle rise.",
+  "reading": "Hallo! Ich heiße Mia. Wie heißt du? Viele Grüße, Mia",
+  "listening": "Guten Abend. Ich heiße Ben. Wie heißen Sie?",
+  "practice": [
+    {
+      "type": "choice",
+      "skill": "Reading",
+      "prompt": "Who wrote this short message?",
+      "options": [
+        "Anna",
+        "Mia",
+        "Ben"
+      ],
+      "answer": 1,
+      "explanation": "Ich heiße Mia identifies the writer. Viele Grüße means “best wishes”.",
+      "source": "Hallo! Ich heiße Mia. Wie heißt du? Viele Grüße, Mia"
+    },
+    {
+      "type": "choice",
+      "skill": "Listening",
+      "prompt": "Which situation fits the speaker?",
+      "options": [
+        "A formal evening introduction",
+        "An informal goodbye",
+        "A morning greeting"
+      ],
+      "answer": 0,
+      "explanation": "Guten Abend is an evening greeting; Sie signals a formal question.",
+      "audio": "Guten Abend. Ich heiße Ben. Wie heißen Sie?"
+    },
+    {
+      "type": "choice",
+      "skill": "Interaction",
+      "prompt": "Ask an adult their name politely.",
+      "options": [
+        "Wie heißt du?",
+        "Ich heiße Ben.",
+        "Wie heißen Sie?"
+      ],
+      "answer": 2,
+      "explanation": "Sie is the formal form."
+    },
+    {
+      "type": "choice",
+      "skill": "Grammar",
+      "prompt": "Complete: Ich ___ Anna.",
+      "options": [
+        "heißt",
+        "heiße",
+        "heißen"
+      ],
+      "answer": 1,
+      "explanation": "Ich takes heiße."
+    },
+    {
+      "type": "text",
+      "skill": "Writing",
+      "prompt": "Write “My name is Ben.”",
+      "accepted": [
+        "Ich heiße Ben.",
+        "Ich heisse Ben.",
+        "Mein Name ist Ben."
+      ],
+      "explanation": "Ich heiße Ben. The alternative Mein Name ist Ben is also natural."
+    },
+    {
+      "type": "text",
+      "skill": "Writing",
+      "prompt": "Ask for repetition: “Once again, please.”",
+      "accepted": [
+        "Bitte noch einmal.",
+        "Noch einmal, bitte."
+      ],
+      "explanation": "Bitte noch einmal. Use this whenever you need repetition."
+    }
+  ],
+  "writing": {
+    "prompt": "Write a greeting, your name and a goodbye. Use a fictional name if you prefer.",
+    "model": "Hallo! Ich heiße Anna. Tschüss!",
+    "checklist": [
+      "I included a greeting.",
+      "I wrote a complete sentence giving a name.",
+      "I included a goodbye."
+    ]
+  },
+  "speaking": {
+    "prompt": "Introduce yourself to a friend. Then ask a new teacher their name politely. Ask for repetition once.",
+    "model": "Hallo! Ich heiße Anna. Wie heißt du? Guten Tag. Wie heißen Sie? Bitte noch einmal.",
+    "checklist": [
+      "I can say my name without reading.",
+      "I can use both du and Sie questions.",
+      "I can ask for repetition."
+    ]
+  },
+  "moduleId": "A1.1",
+  "label": "1.1",
+  "cefr": {
+    "level": "A1",
+    "scales": [
+      "Conversation",
+      "Information exchange",
+      "Notes, messages and forms"
+    ],
+    "conditions": "Familiar language; slow clear speech; repetition and support allowed."
+  }
 }
